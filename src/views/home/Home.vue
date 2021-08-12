@@ -122,6 +122,11 @@ export default {
             this.currentType = 'sell'
             break
         }
+
+      /*  if (this.$refs.tabControl1 !== undefined){
+          this.$refs.tabControl1.currentIndex = index;
+          this.$refs.tabControl2.currentIndex = index;
+        }*/
         this.$refs.tabControl1.currentIndex = index;
         this.$refs.tabControl2.currentIndex = index;
       },
